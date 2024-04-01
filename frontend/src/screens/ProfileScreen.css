@@ -1,0 +1,65 @@
+.profile-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Style the form column */
+  .profile-form {
+    padding: 20px;
+   
+  }
+  
+  /* Style the user details column */
+  .profile-details {
+    text-align: center;
+    padding: 20px;
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+  
+  /* Style the profile image container */
+  .profile-image-container {
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  
+  /* Style the profile image */
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  /* Style user details */
+  .user-details h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .user-details p {
+    font-size: 1rem;
+  }
+
+  .main{
+    width: -webkit-fill-available;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .form-label {
+    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+
+.update-btn{
+    display: flex;
+    justify-content: center;
+}
